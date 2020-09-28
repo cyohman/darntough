@@ -3,7 +3,6 @@ import asyncio
 import aiohttp
 import os
 import filetype
-from werkzeug.datastructures import FileStorage
 from aiohttp import FormData
 
 EMAIL_URL="http://localhost:5000/email"
